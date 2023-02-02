@@ -9,7 +9,7 @@
 .top-image {
   width: 100%;
   min-height: 100vh;
-  background-image: url("india-images\India_top_image.jpg");
+  background-image: url("india-images/India_top_image.jpg");
   background-size: cover;
   background-position: center;
   padding: 10px 8%;
@@ -17,7 +17,7 @@
 
 .content {
   background-image: linear-gradient(rgb(113, 221, 236, 0.5),
-  rgba(113, 221, 236, 0.5)), url("Pattern.jpg");
+  rgba(113, 221, 236, 0.5)), url("../Pattern.jpg");
   background-size: 300px 350px;
   padding: 50px;
 }
