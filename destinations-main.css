@@ -5,6 +5,78 @@
     box-sizing: border-box;
 }
 
+/* Code from Angela */
+*::selection {
+    background: var(--main-color);
+    color: #8FD6E1; 
+  }
+  :root {
+    --main-color: #800000;
+    --text-color: #150E56;
+    --bg-color: #8FD6E1;
+  
+    --big-font: 4rem;
+    --h2-font: 2.24rem;
+    --p-font: 0.9rem;
+  }
+  section {
+    padding: 50px 10%;
+  }
+  
+  body.active {
+    --bg-color: #150E56;
+    --text-color: #8FD6E1;
+  }
+  body {
+    color: var(--text-color);
+    background: var(--bg-color);
+  }
+  body.active {
+    color: #8FD6E1;
+    background: #1e1c2a;
+  }
+  
+  #darkmode {
+    font-size: 25px;
+    cursor: pointer;
+  }
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--bg-color);
+    padding: 18px 100px;
+    box-shadow: 0 0.5rem 50rem rgba(0, 0, 0, 0.1);
+  }
+  .logo {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--main-color);
+  }
+  .navbar {
+    display: flex;
+  }
+  .navbar a {
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: var(--text-color);
+    font-weight: 500;
+  }
+  .navbar a:hover {
+    color: var(--main-color);
+  }
+  #menu-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+  }
+
+/* My code */
 .banner-text {
     width: 100%;
     min-height: 100vh;
