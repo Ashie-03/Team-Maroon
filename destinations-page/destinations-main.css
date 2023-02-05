@@ -88,6 +88,11 @@ header {
   display: none;
 }
 
+.responsive {
+  max-width: 80%;
+  height: auto;
+}
+
 /* Responsiveness code from Angela */
 
 @media (max-width: 921px) {
@@ -181,4 +186,10 @@ header {
     padding: 20px ;
     border: 1px solid black 
     text-align: center;
+}
+
+.images-main img{
+  max-width: 100%;
+  position: relative;
+  
 }
