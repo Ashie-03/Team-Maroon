@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Destinations</title>
-    <link rel="stylesheet" href="destinations-main.css"> <!-- Links the CSS Stylesheet -->
-    <link rel="icon" type="image/png" href="Favicon.psd">
+    <link rel="stylesheet" href="destinations-main.css"> <!-- CSS Stylesheet -->
+    <link rel="icon" type="image/png" href="Favicon.psd"> <!-- Favicon -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> <!-- Box icons -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!-- Scrolling Animations -->
 
 </head>
 <body>
@@ -36,7 +38,7 @@
         <p>We provide services to almost all countries. But we do have some preferred destinations.<br>
             Explore our top 5 destinations below - most loved by our clients!</p>
     </div>
-    <!-- Coutry flag badges -->
+    <!-- Country flag badges -->
     <div class="images-main">
         <a href="india\india.html">
             <img src="main-images\India.png" alt="An image showing the Flag of India">
@@ -57,9 +59,40 @@
         <a href="uk\uk.html">
             <img src="main-images\UK.png" alt="An image showing the Flag of India">
         </a>
-    <!-- Linking to Country Search Page -->
-        <h1><a href="country_search.html">Click here </a> to know about your favourite destination !&#127759; (optional page)</h1>
     </div>
+    <!-- Contact Footer -->
+    <section class="contact" id="contact">
+        <div class="contact-box">
+            <h3>Fly With Maroon</h3>
+            <span>Connect With Us</span>
+            <div class="social">
+                <a href="https://www.facebook.com/profile.php?id=100089732212942"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://github.com/angela-barone/maroon_team"><i class="bx bxl-github"></i></a>
+            </div>
+        </div>
+        <div class="contact-box">
+            <h3>Created by the Maroon Team</h3>
+            <li><a href="#home">Angela</a></li>
+            <li><a href="#about">Ashwini</a></li>
+            <li><a href="#destinations">Klaudia</a></li>
+            <li><a href="#services">Vera</a></li>
+        </div>
+        
+        <div class="contact-box address">
+            <h3>Contact</h3>
+            <i class='bx bxs-map' ><span>44 Street London, UK</span></i>
+            <i class='bx bxs-phone' ><span>+1 333 333 3333</span></i>
+            <i class='bx bxs-envelope' ><span>CFG_Maroon@email.com</span></i>
+        </div>
+    </section>
+
+    <!-- JS File -->
+    <script src="destinations-main.js"></script> 
+    <!-- Scrolling Animation JS File -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 </html>
