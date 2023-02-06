@@ -172,7 +172,7 @@
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 350px) {
   .index-banner {
     font-size: 15px;
   }
